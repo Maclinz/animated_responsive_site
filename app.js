@@ -31,7 +31,7 @@ const scrollAnimations = () =>{
         //scroll magci scene
         let scene = new ScrollMagic.Scene({
             triggerElement: section,
-            triggerHook: 0.7,
+            triggerHook: 0.71,
             reverse: false
         })
         .setTween(tl)
