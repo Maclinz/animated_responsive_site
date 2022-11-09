@@ -1,0 +1,103 @@
+@media screen and (max-width: 1300px){
+    header .navigation .nav-items{
+        display: none;
+    }
+    header .navigation .nav-btns-con{
+        justify-content: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 1380px){
+    
+}
+@media screen and (max-width: 905px){
+    
+}
+@media screen and (max-width: 1380px){
+    .section-video .video-content{
+        padding: 8rem 8rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .section-video .video-content{
+        padding: 6rem 1.5rem !important;
+    }
+    .section-about{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 905px){
+    .section-video .video-content{
+        padding: 8rem 4rem;
+    }
+}
+@media screen and (max-width: 1130px){
+    .section-video .video-content{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 415px){
+    header .header-content{
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .section-gallery .gallery-container{
+        grid-gap: 1.5rem;
+    }
+    .section-gallery .gallery-container .g-img-2{
+        grid-row: initial;
+        grid-column: initial;
+    }
+    .section-gallery .gallery-container{
+        grid-template-columns: auto;
+    }
+    .section-gallery .gallery-container .g-img-3{
+        grid-column: initial;
+    }
+}
+@media screen and (max-width: 840px){
+    header .header-content{
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 4rem;
+    }
+    header .header-content .right-h-content .h-img-2 {
+        width: 100%;
+        height: 500px;
+        left: 0;
+    }
+    header .header-content .right-h-content .h-img-3{
+        display: none;
+    }
+
+    .section-about{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mouse{
+        display: none;
+    }
+
+    .section-about .right-about{
+        justify-content: flex-start;
+        .about-img {
+            width: 100%;
+        }
+    }
+
+    .title-con{
+        width: 80%;
+    }
+
+    .section-recommendations{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 1080px){
+    header .header-content .left-h-content h1{
+        font-size: 3rem;
+    }
+}

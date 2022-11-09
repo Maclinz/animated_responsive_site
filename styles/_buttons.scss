@@ -1,0 +1,49 @@
+@import './variable';
+
+.btn{
+    overflow: hidden;
+}
+.arrow{
+    i{
+        animation: moveLR 2s infinite;
+        font-size: .9rem;
+    }
+    @keyframes moveLR {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(10px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+        
+    }
+}
+.main-btn{
+    background: $color-gradient-primary-3 ;
+    padding: .8rem 2rem;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    display: inline-block;
+    span:last-child{
+        position: absolute;
+        top: 5px;
+        right: -55%;
+        width: 180px;
+        height: 180px;
+        background: rgba(255,255,255,.2);
+        border-radius: 50%;
+        transition: all 1s cubic-bezier(.21,.69,.73,1.08);
+        display: block;
+    }
+    &:hover{
+        span{
+            right: -30%;
+            top: -15px;
+        }
+    }
+}

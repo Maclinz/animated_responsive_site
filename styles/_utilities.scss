@@ -1,0 +1,39 @@
+.u-pad-lg{
+    padding: 8rem 18rem;
+    @media screen and (max-width: 1380px){
+        padding: 8rem 8rem;
+    }
+    @media screen and (max-width: 905px){
+        padding: 8rem 4rem;
+    }
+    @media screen and (max-width: 450px){
+        padding: 8rem 1.5rem;
+    }
+}
+
+
+.u-pad-lg-2{
+    padding-top: 1rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    padding-bottom: 6rem;
+    @media screen and (max-width: 1380px){
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    @media screen and (max-width: 905px){
+        padding-left: 4rem;
+        padding-right: 4rem;
+        
+    }
+    @media screen and (max-width: 450px){
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }
+}
+
+.cta-btn{
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
